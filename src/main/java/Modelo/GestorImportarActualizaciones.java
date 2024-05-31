@@ -12,6 +12,7 @@ public class GestorImportarActualizaciones {
     private int id;
     private String nombre;
     private String fechaActual;
+    private Bodega Bodegas[];
 
     public GestorImportarActualizaciones() {
     }

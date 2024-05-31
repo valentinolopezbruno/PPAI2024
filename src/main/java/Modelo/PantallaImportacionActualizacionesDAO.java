@@ -11,11 +11,12 @@ package Modelo;
 public class PantallaImportacionActualizacionesDAO {
     
     // Mostrar la bodega
-    public String mostrarBodegaConActualizacionDisponible(Bodega Bodega){
-        return Bodega.getDescripcion();
+    public Bodega mostrarBodegaConActualizacionDisponible(Bodega Bodega){
+        // iterar las bodegas en el front para que el ususario la seleeccione
+        return Bodega;
     }
     
-    public String tomarSeleccionBodega(Bodega Bodega){
-        return "Bodega Seleccionada";
+    public Bodega tomarSeleccionBodega(Bodega Bodega){
+        return Bodega;
     }
 }

@@ -11,8 +11,10 @@ package Modelo;
 public class SistemaBodegaDAO {
     
     // Obtiene la actualizacion de la bodega seleccionada
-    public void obtenerActualizacionBodegaSeleccionada(Bodega Bodega){
+    public Bodega obtenerActualizacionBodegaSeleccionada(Bodega Bodega){
         // Datos Actualizados de la bodega
+        // copnecta con la api
+        return Bodega;
     }
     
 }

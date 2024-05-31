@@ -21,15 +21,19 @@ public class GestorImportarActualizacionesDAO {
         Gestor.setFechaActual(fechaActualStr);
     }
      
-    // Obtener bodegas con actualizacionbes
-        public void buscarBodegaConActualizacionDisponible() {
+    // Self de obtener bodegas con actualizacionbes
+        public void buscarBodegaConActualizacionDisponible(BodegaDAO BodegaDAO, Bodegas Bodegas) {
         // instancia a buscar los datos a la bodega
-        BodegaDAO.tieneA
+        if(BodegaDAO.tieneActualizacionDisponible() == true){
+            BodegaDAO.getNombreBodega();
+            // push de las bodegas con act pendietnes.
+        }
     }
     
     // Tomar la seleccion de la bodega
-    public String tomarSeleccionBodega(Bodega Bodega){
-        return "Bodega Seleccionada";
+    public void tomarSeleccionBodega(Bodega Bodega){
+        // recibe la bodega
+        // instancia el obtener act de bodega
     }
      
     // Self que ordena actualizar los vinos de la respectiva bodega

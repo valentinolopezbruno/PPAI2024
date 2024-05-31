@@ -12,7 +12,7 @@ public class InterfazBodegaDAO {
     
     // Obtiene la actualizacion de la bodega seleccionada
     public void obtenerActualizacionBodegaSeleccionada(Bodega Bodega){
-        // Fn
+        // instancia el otro metodo de obtener en la clase sistema bodega
     }
     
 }
